@@ -1,8 +1,8 @@
 # CS-MRBD: A Motorcycle Rider Behavior Dataset for Chaotic Streets
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
-[![Colab](https://colab.research.google.com/drive/1rCiXE7E20NK3UnniUyt6oEe-w1wNvYK0#scrollTo=TYH-ANh5_SIF)](COLAB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rCiXE7E20NK3UnniUyt6oEe-w1wNvYK0#scrollTo=TYH-ANh5_SIF)
 
-##Inference
+##Inference in Colab
 https://colab.research.google.com/drive/1rCiXE7E20NK3UnniUyt6oEe-w1wNvYK0#scrollTo=TYH-ANh5_SIF
 
 ## Demo of CS-MRBD Dataset
