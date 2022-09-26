@@ -5,7 +5,7 @@ from tensorflow.nn import softmax
 
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-%matplotlib inline
+#%matplotlib inline
 
 from IPython.display import Image, display
 
@@ -90,7 +90,7 @@ def save_and_display_gradcam(img, heatmap, cam_path="cam.jpg", alpha=0.4):
 
     # Display Grad CAM
     display(Image(cam_path))
-    #plt.imshow()
+    #for plt.imshow()
 
 img = img_array.squeeze()
 heatmap = heatmap_seq.squeeze()
