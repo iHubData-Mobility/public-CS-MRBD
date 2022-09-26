@@ -6,7 +6,7 @@ from tensorflow.nn import softmax
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
-from narnnv31 import AttentionLSTM
+from model import AttentionLSTM
 import sys
 
 model_builder = AttentionLSTM(15)
