@@ -6,6 +6,8 @@ from tensorflow.nn import softmax
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 
+from IPython.display import Image, display
+
 from model import AttentionLSTM
 import sys
 
