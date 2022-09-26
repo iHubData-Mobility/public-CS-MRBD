@@ -11,6 +11,7 @@ from IPython.display import Image, display
 
 from model import AttentionLSTM
 import sys
+import glob
 
 model_builder = AttentionLSTM(15)
 
@@ -89,8 +90,8 @@ def save_and_display_gradcam(img, heatmap, cam_path="cam.jpg", alpha=0.4):
     superimposed_img.save(cam_path)
 
     # Display Grad CAM
-    display(Image(cam_path))
-    #for plt.imshow()
+    #display(Image(cam_path))
+    plt.show(cam_path)
 
 img = img_array.squeeze()
 heatmap = heatmap_seq.squeeze()
