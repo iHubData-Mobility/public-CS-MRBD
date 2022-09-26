@@ -26,7 +26,7 @@ model.load_weights("checkpoint/inception.005-0.60.hdf5")
 # Remove last layer's softmax
 model.layers[-1].activation = None
 
-last_conv_layer = "conv2d_247"
+last_conv_layer = "time_distributed_4"
 
 grad_model = tf.keras.models.Model(
     [model.inputs], [model.get_layer(last_conv_layer).output, model.output]
