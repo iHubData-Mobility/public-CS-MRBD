@@ -9,5 +9,5 @@ https://colab.research.google.com/drive/1rCiXE7E20NK3UnniUyt6oEe-w1wNvYK0?usp=sh
 ## Demo of CS-MRBD Dataset
 <p align="left"><img src="demo/lanechange.gif"\><img src="demo/turn.gif"\></p>
 <p align="left"><img src="demo/overtaking.gif"\><img src="demo/distracteddriving.gif"\></p>
-<p align="center"><img src="demo/obstructions.gif"\></p>
+<p align="left"><img src="demo/obstructions.gif"\></p>
 
